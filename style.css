@@ -1,0 +1,369 @@
+/*Debut de la mise en forme du CV*/
+/*cet main represente la div qui engloble le cv*/
+.main{
+    position: relative;
+    left: 23%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 8px solid cornflowerblue;
+    width: 742px;
+    height: 1160px;
+    box-shadow: 10px 10px 20px gray;
+}
+/*A partir de cette partie j'ai fait suivre les elements donnants des informations sur moi-même*/
+.photo_cv{
+    margin-left: 56px;
+    margin-top: -224px;
+    margin-bottom: 400px;
+    border-radius: 50%;
+    position: absolute;
+    width: 187px;
+    height: 208px;
+    overflow: hidden;
+}
+.profil{
+    color: rgb(14, 11, 5);
+    font-weight: Bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-left: 65px;
+    font-size: 15px;
+}
+.Contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+    border: 1px solid
+    black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    height: 28px;
+    padding-left: 55px;
+    padding-right: -27px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+.liste-contact{
+    margin-top: -10px;
+}
+
+.logo-contacts{
+    margin-left: -35px;
+}
+.Nom_Prenoms{
+    color: #10a1c5;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    font-size: 40px;
+    margin-top: -235px;
+    margin-left: 360px;
+}
+/*La mise en forme des icones utilisés dans le cv*/
+.Email{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 110px;
+    margin-left: 57px;
+    width: 10;
+    height: 10;
+}
+.numeros{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-left: 57px;
+}
+
+.github{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 197px;
+    margin-left: 57px;
+}
+.linkedin{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 233px;
+    margin-left: 57px;
+}
+.Dokui{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 266px;
+    margin-left: 57px;
+}
+.music{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 685px;
+    margin-left: 60px;
+}
+.basket{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 710px;
+    margin-left: 60px;
+}
+.programmation{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 653px;
+    margin-left: 150px;
+}
+.Internet{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 688px;
+    margin-left: 150px;
+}
+.User-icones{
+    margin-top: 94px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 75px;
+}
+.Competance-icones{
+    margin-top: 345px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 67px;
+}
+.Hobbies-icones{
+    margin-top: 648px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 75px;
+}
+.diplome-icones{
+    margin-top: 98px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 375px;
+}
+.Experiences-icones{
+    margin-top: 388px;
+    position: absolute;
+    overflow: visible;
+    margin-left: 360px;
+}
+.Langue-icones{
+    margin-top: 510px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 60px;
+}
+/*La mise ne forme des deux sections droite et gauche du CV*/
+/*Debut de la section gauche*/
+.section-left{
+    float: left;
+    width: 370px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+.Competance{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+    border: 1px rgb(3, 22, 58);
+    border-width: 2px;
+    border-radius: 20px;
+    height: 28px;
+    padding-left: 45px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    width: 130px;
+    margin-top: -18px;
+    background-color: rgb(3, 22, 58);
+    color: cornsilk;
+}
+.repertoire{
+   list-style: none;
+}
+.repertoire2{
+    list-style: none;
+    margin-left: -30px;
+}
+.repertoire{
+    margin-left: 85px;
+    margin-top: 0px;
+}
+*{
+    list-style: none;
+    padding: 0;
+}
+.liste-competences li{
+    margin-left: 57px;
+    margin-top: -18px;
+}
+.bar{
+    background: #eff1f7;
+    display: block;
+    height: 6px;
+    border: 1px solid rgba(3, 5, 136, 0.336);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #2187e7b3;
+    width: 220px;
+}
+.bar span{
+    height: 5px;
+    float: left;
+    background: #2187e7;
+}
+.code{
+    width: 50%;
+    animation: 2s;
+}
+.design{
+    width: 37%;
+    animation: 2s;
+}
+.office{
+    width: 80%;
+    animation: 2s;
+}
+@keyframes code{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 58%;
+    }
+}
+@keyframes design{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes office{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.Langue{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+    border: 1px solid
+    black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    height: 28px;
+    padding-left: 45px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    width: 130px;
+    margin-top: -3px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+.Liste-Langues{
+    margin-left: 60px;
+    margin-top: -5px;
+}
+.Hobbies{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0px;
+    border: 1px rgb(3, 22, 58);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 28px;
+    padding-left: 45px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: rgb(3, 22, 58);
+    color: cornsilk;
+}
+/*Fin de la section gauche et debut de la section droite*/
+.section-right{
+    float: right;
+    width: 370px; 
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 400px;
+}
+.Formation{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornsilk;
+    border: 1px solid rgb(3, 22, 58); 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 27px;
+    padding-left: 55px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    width: 298px;
+    margin-top: -23px;
+    margin-left: -10px;
+    background-color: rgb(3, 22, 58);
+}
+.Experience{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;                                          
+    border: 1px solid cornflowerblue;
+    border-width: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 27px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    font-size: 17px;
+    width: 323px;
+    margin-top: -30px;
+    margin-left: -5px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+/*Fin de la section droite*/
+/*La mise en forme de la partie "hobbies"*/
+.left_Hob{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -90px;
+}
+.right_Hob{
+    margin-left: 145px;
+    margin-top: -18px;
+}
+.Internet{
+    margin-top: 718px;
+    margin-left: 180px;
+}
+.programmation{
+    margin-left: 180px;
+    margin-top: 687px;
+}
+/*Fin de La mise en forme de la partie "hobbies"*/
+.Bas_Design{
+    width: 744px;
+    height: 110px;
+    margin-top: 767px;
+    margin-left: -1px;
+}
+/*Fin de la mise en forme du CV*/
